@@ -1,0 +1,76 @@
+.navbar-fixed{
+  margin-top: px;
+}
+
+.parallax-container {    
+    height: 400px;
+      }
+
+.modal {
+  border-radius: 10px;
+}
+
+#map {
+  height: 250px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+/*Efek Hover Image muncul tulisan*/
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: grey;
+  
+}
+
+.parallax-container:hover .overlay {
+  
+  opacity: 0.5;
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Akhir Efek Hover Image*/
+
+.button1 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.logo{
+  width: 10%;
+
+}
+
+.kontak{
+  display: inline-flex;
+}
+
+.logo2{
+  width: 45%;
+}
+
+.page-footer {
+  margin-top: -20px;
+  
+}

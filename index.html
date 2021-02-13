@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+     
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/style.css">
+      <!--Google MAP API-->
+      <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUrpiqiuaID9YoSc9SsMMUAXnu9Uu80c0&callback=initMap">
+      </script>
+      <!--Let browser know website is optimized for mobile-->
+      <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+      
+      <!--AOS CSS-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!--Navbar-->
+        <div class="navbar-fixed ">
+         <nav class="teal darken-2">  <!--Ubah warna navbar-->
+            <div class="nav-wrapper">
+              <a href="#!" class="brand-logo center">7Summit INA</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">               
+                <li><a href="collapsible.html">Kontak</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        
+          <ul class="sidenav teal darken-2" id="mobile-demo">            
+            <li><a href="collapsible.html" style="color: white;">Kontak</a></li>         
+         </ul>
+
+        <!--Parallax-->
+
+      <div class="parallax-container">
+        <div class="parallax" id="cartenz"><img width="1500" src="img/cartenz2.jpg"></div>
+          <div class="overlay ">
+            <div class="text " >Pegunungan Jayawijaya</div>
+           </div>
+        </div>
+          <div class="section grey darken-4">
+            <div class="row container">
+              <h2 class="header cyan-text text-lighten-4" data-aos="fade-right" data-aos-once="true">Cartenz Pyramid </h2>
+              
+              <p class="cyan-text text-lighten-4" data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="100"
+              data-aos-offset="0">Puncak Jaya atau Piramida Carstensz ialah sebuah puncak yang menjadi bagian dari Barisan Sudirman yang terdapat di Provinsi Papua, Indonesia. Puncak Jaya mempunyai ketinggian 4.884 mdpl dan di sekitarnya terdapat gletser Carstensz, satu-satunya gletser tropika di Indonesia, yang secara perlahan mulai menipis akibat pemanasan global. <br> <br>
+
+              Puncak ini merupakan gunung tertinggi di Indonesia kawasan Oceania. Puncak Jaya adalah salah satu dari tujuh puncak tertinggi di dunia.</p>
+              
+              <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Info</a>
+        </div>
+      </div>
+
+      <div class="parallax-container">
+        <div class="parallax"><img src="img/kerinci.jpg"></div>
+          <div class="overlay">
+            <div class="text">Gunung Kerinci</div>
+          </div>
+        </div>
+          <div class="section grey darken-4">
+            <div class="row container">
+              <h2 class="header cyan-text text-lighten-4" data-aos="fade-right">Puncak Indrapura</h2>
+              <p class="cyan-text text-lighten-4" data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="100"
+              data-aos-offset="0">Gunung Kerinci adalah gunung tertinggi di Sumatra, gunung berapi tertinggi di Indonesia, dan puncak tertinggi di Indonesia di luar Papua. Gunung Kerinci terletak tepat di perbatasan antara Provinsi Sumatera Barat dengan Provinsi Jambi, di Pegunungan Bukit Barisan, dekat pantai barat, dan terletak sekitar 130 km sebelah selatan Padang Provinsi Sumatra Barat. <br> <br>
+              
+              Gunung ini juga menjadi batas antara wilayah Etnis Minangkabau dengan Suku Kerinci yang dikelilingi hutan lebat Taman Nasional Kerinci Seblat dan merupakan habitat harimau sumatra dan badak sumatra. </p>
+              <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Info</a>
+            </div>
+          </div>
+
+      <div class="parallax-container">
+          <div class="parallax"><img width ="1400" src="img/rinjani.jpg"></div>
+            <div class="overlay">
+              <div class="text">Gunung Rinjani</div>
+            </div>
+          </div>
+          <div class="section grey darken-4">
+            <div class="row container">
+              <h2 class="header cyan-text text-lighten-4" data-aos="fade-right">Rinjani</h2>
+              <p class="cyan-text text-lighten-4" data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="100"
+              data-aos-offset="0">Gunung Rinjani adalah gunung yang berlokasi di Pulau Lombok, Nusa Tenggara Barat. Gunung yang merupakan gunung berapi kedua tertinggi di Indonesia dengan ketinggian 3.726 m dpl. Gunung Rinjani sangat populer bagi pendaki Indonesia karena keindahan pemandangannya. Gunung ini merupakan bagian dari Taman Nasional Gunung Rinjani yang memiliki luas sekitar 41.330 ha dan ini akan diusulkan penambahannya sehingga menjadi 76.000 ha ke arah barat dan timur. <br> <br>
+
+              Secara administratif gunung ini berada dalam wilayah tiga kabupaten yaitu Lombok Timur, Lombok Tengah dan Lombok Barat. </p>
+              <a class="waves-effect waves-light btn modal-trigger" href="#modal3">Info</a>
+            </div>
+      </div>
+
+      <div class="parallax-container">
+        <div class="parallax"><img width ="1400" src="img/semeru.jpg"></div>
+          <div class="overlay">
+            <div class="text">Gunung Semeru</div>
+          </div>
+        </div>
+          <div class="section  grey darken-4">
+            <div class="row container">
+              <h2 class="header cyan-text text-lighten-4" data-aos="fade-right">Puncak Mahameru</h2>
+              <p class="cyan-text text-lighten-4" data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="100"
+              data-aos-offset="0">Gunung Semeru atau Gunung Meru adalah sebuah gunung berapi kerucut di Jawa Timur, Indonesia. Gunung Semeru merupakan gunung tertinggi di Pulau Jawa, dengan puncaknya Mahameru, 3.676 meter dari permukaan laut (mdpl). Gunung Semeru juga merupakan gunung berapi tertinggi ketiga di Indonesia setelah Gunung Kerinci di Sumatra dan Gunung Rinjani di Nusa Tenggara Barat. Kawah di puncak Gunung Semeru dikenal dengan nama Jonggring Saloko. <br> <br>
+
+              Gunung Semeru secara administratif termasuk dalam wilayah dua kabupaten, yakni Kabupaten Malang dan Kabupaten Lumajang, Provinsi Jawa Timur. Gunung ini termasuk dalam kawasan Taman Nasional Bromo Tengger Semeru. </p>
+              <a class="waves-effect waves-light btn modal-trigger" href="#modal4">Info</a>
+            </div>
+      </div>
+
+      <div class="parallax-container">
+          <div class="parallax"><img width="1400" height="auto" src="img/latimojong1.jpg"></div>
+            <div class="overlay">
+              <div class="text">Gunung Latimojong</div>
+            </div>
+          </div>
+          <div class="section grey darken-4">
+            <div class="row container">
+              <h2 class="header cyan-text text-lighten-4" data-aos="fade-right">Puncak Rantemario</h2>
+              <p class="cyan-text text-lighten-4" data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="100"
+              data-aos-offset="0">Gunung Latimojong adalah satu nama gunung di Kabupaten Enrekang, Sulawesi Selatan, Indonesia. Gunung Latimojong berada di tengah-tengah Sulawesi Selatan. Sebagian besar pengunungan ini terletak di daerah Kabupaten Enrekang.Gunung Latimojong merupakan gunung yang tertinggi di Sulawesi Selatan dengan ketinggian 3.478 meter, puncaknya yang bernama Bulu Rante Mario. <br> <br>
+              
+              Pegunungan Latimojong ini membentang dari selatan ke utara. Di sebelah barat Gunung Latimojong adalah Kabupaten Enrekang, sebelah utara Kabupaten Tana Toraja, sebelah selatan adalah daerah Kabupaten Sidenreng Rappang dan area sebelah timur seluruhnya wilayah Kabupaten Luwu sampai di pinggir pantai Teluk Bone. </p>
+              <a class="waves-effect waves-light btn modal-trigger" href="#modal5">Info</a>
+            </div>
+      </div>
+
+      <div class="parallax-container">
+        <div class="parallax"><img width="1400" height="" src="img/binaiya1.jpg"></div>
+          <div class="overlay">
+             <div class="text">Gunung Binaiya</div>
+          </div>
+        </div>
+          <div class="section grey darken-4">
+            <div class="row container">
+              <h2 class="header cyan-text text-lighten-4" data-aos="fade-right">Puncak Binaiya</h2>
+              <p class="cyan-text text-lighten-4" data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="100"
+              data-aos-offset="0">Gunung Binaia atau Binaiya atau Binaija adalah sebuah gunung yang terletak di Pulau Seram, Maluku di negara Indonesia. Gunung Binaiya merupakan gunung tertinggi di Provinsi Maluku dengan ketinggian 3.027 meter di atas permukaan laut (mdpl) masuk ke dalam wilayah Kabupaten Maluku Tengah, Provinsi Maluku. <br> <br>
+
+              Gunung ini membentang di Pulau Seram dan masuk ke dalam lingkup Taman Nasional Manusela yang mempunyai luas 189.000 hektar, atau sekitar 20% wilayah Pulau Seram. </p>
+              <a class="waves-effect waves-light btn modal-trigger" href="#modal6">Info</a>
+            </div>
+      </div>
+
+      <div class="parallax-container">
+        <div class="parallax"><img width="" src="img/bukitraya.jpg"></div>
+          <div class="overlay">
+            <div class="text">Pengunungan Bukit Raya</div>
+          </div>
+        </div>
+          <div class="section grey darken-4" >
+            <div class="row container">
+              <h2 class="header cyan-text text-lighten-4" data-aos="fade-right">Puncak Bukit Raya</h2>
+              <p class="cyan-text text-lighten-4" data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="100"
+              data-aos-offset="0">Bukit Raya atau Gunung Raya adalah sebuah gunung yang terletak di Kabupaten Katingan, Provinsi Kalimantan Tengah. Gunung ini adalah gunung tertinggi di Kalimantan yang masuk dalam wilayah Indonesia. Kawasan sekitar Bukit Raya menjadi cagar alam, dan bersama-sama dengan Cagar Alam Bukit Baka di Kalimantan Barat merupakan Taman Nasional Bukit Baka-Bukit Raya. </p>
+              <a class="waves-effect waves-light btn modal-trigger" href="#modal7">Info</a>
+            </div>
+      </div>
+
+          <!--Modal Struktur-->
+          <!--Pegunungan Jayawijaya-->
+          <div id="modal1" class="modal">
+            <div class="modal-content grey darken-4">
+              <h4 class="cyan-text text-lighten-4 center">Pengunungan Jayawijaya</h4>
+                              
+                  <ul class="collapsible popout">
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">filter_drama</i>Cuaca</div>
+                      <div class="collapsible-body"><a class="weatherwidget-io" href="https://forecast7.com/en/n3d45137d84/puncak-jaya-regency/" data-label_1="PUNCAK JAYA" data-label_2="WEATHER" data-font="Ubuntu" data-icons="Climacons Animated" data-days="3" data-theme="dark" >PUNCAK JAYA WEATHER</a></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header "><i class="material-icons ">add_box</i>Detail</div>
+                      <div class="collapsible-body ">
+                        <p class="cyan-text text-lighten-4"> 
+                          Letak       : Papua, Indonesia<br>
+                          Ketinggian  : 4884 m
+              
+                        </p>
+
+                      </div>
+                    </li>
+                  </ul>
+        
+              <p  class="cyan-text text-lighten-4">
+                
+              </p>
+            </div>
+            <div class="modal-footer">
+              <a href="https://www.google.com/maps/place/Puncak+Jaya/@-4.0845984,137.1691083,14z/data=!4m13!1m7!3m6!1s0x6822c32da4587561:0x966db8275bd1b648!2sPuncak+Jaya!3b1!8m2!3d-4.0845986!4d137.1866179!3m4!1s0x6822c32da4587561:0x966db8275bd1b648!8m2!3d-4.0845986!4d137.1866179" target="_blank" class="modal-close waves-effect waves-green btn-flat">Buka Map</a>
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Tutup</a>
+            </div>
+          </div>
+
+          <!--Gunung Kerinci-->
+          <div id="modal2" class="modal">
+            <div class="modal-content grey darken-4">
+              <h4 class="cyan-text text-lighten-4 center">Gunung Kerinci</h4>
+              <ul class="collapsible popout">
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">filter_drama</i>Cuaca</div>
+                  <div class="collapsible-body"><a class="weatherwidget-io" href="https://forecast7.com/en/n1d87101d43/kerinci-regency/" data-label_1="KERINCI" data-label_2="WEATHER" data-font="Ubuntu" data-icons="Climacons Animated" data-days="3" data-theme="dark" >KERINCI WEATHER</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header "><i class="material-icons ">add_box</i> Detail</div>
+                  <div class="collapsible-body ">
+                    <p class="cyan-text text-lighten-4"> 
+                      Letak       : Sumatera Barat, Indonesia<br>
+                      Ketinggian  : 3805 m
+                    </p>
+
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat left">Lokasi</a>
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Tutup</a>
+            </div>
+          </div>
+
+          <!--Gunung Rinjani-->
+          <div id="modal3" class="modal">
+            <div class="modal-content grey darken-4">
+              <h4 class="cyan-text text-lighten-4 center">Gunung Rinjani</h4>
+              <ul class="collapsible popout">
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">filter_drama</i>Cuaca</div>
+                  <div class="collapsible-body"><a class="weatherwidget-io" href="https://forecast7.com/en/n8d51116d56/east-lombok-regency/" data-label_1="LOMBOK" data-label_2="WEATHER" data-font="Ubuntu" data-icons="Climacons Animated" data-days="3" data-theme="dark" >LOMBOK WEATHER</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header "><i class="material-icons ">add_box</i> Detail</div>
+                  <div class="collapsible-body ">
+                    <p class="cyan-text text-lighten-4"> 
+                      Letak       : Nusa Tenggara Barat, Indonesia<br>
+                      Ketinggian  : 3726 m
+                    </p>
+
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat left">Lokasi</a>
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Tutup</a>
+            </div>
+          </div>
+
+          <!--Gunung Semeru-->
+          <div id="modal4" class="modal">
+            <div class="modal-content grey darken-4">
+              <h4 class="cyan-text text-lighten-4 center">Gunung Semeru</h4>
+              <ul class="collapsible popout">
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">filter_drama</i>Cuaca</div>
+                  <div class="collapsible-body"><a class="weatherwidget-io" href="https://forecast7.com/en/n8d13113d22/lumajang/" data-label_1="LUMAJANG" data-label_2="WEATHER" data-font="Ubuntu" data-icons="Climacons Animated" data-days="3" data-theme="dark" >LUMAJANG WEATHER</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header "><i class="material-icons ">add_box</i> Detail</div>
+                  <div class="collapsible-body ">
+                    <p class="cyan-text text-lighten-4"> 
+                      Letak       : Jawa Timur, Indonesia<br>
+                      Ketinggian  : 3676 m
+                    </p>
+
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat left">Lokasi</a>
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Tutup</a>
+            </div>
+          </div>
+
+          <!--Gunung Latimojong-->
+          <div id="modal5" class="modal">
+            <div class="modal-content grey darken-4">
+              <h4 class="cyan-text text-lighten-4 center">Gunung Latimojong</h4>
+              <ul class="collapsible popout">
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">filter_drama</i>Cuaca</div>
+                  <div class="collapsible-body"><a class="weatherwidget-io" href="https://forecast7.com/en/n3d46119d88/enrekang-regency/" data-label_1="ENREKANG" data-label_2="WEATHER" data-font="Ubuntu" data-icons="Climacons Animated" data-days="3" data-theme="dark" >ENREKANG WEATHER</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header "><i class="material-icons ">add_box</i> Detail</div>
+                  <div class="collapsible-body ">
+                    <p class="cyan-text text-lighten-4"> 
+                      Letak       : Sulawesi Selatan, Indonesia<br>
+                      Ketinggian  : 3478 m
+                    </p>
+
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat left">Lokasi</a>
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Tutup</a>
+            </div>
+          </div>
+
+          <!--Gunung Binaiya-->
+          <div id="modal6" class="modal">
+            <div class="modal-content grey darken-4">
+              <h4 class="cyan-text text-lighten-4 center">Gunung Binaiya</h4>
+              <ul class="collapsible popout">
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">filter_drama</i>Cuaca</div>
+                  <div class="collapsible-body"><a class="weatherwidget-io" href="https://forecast7.com/en/n3d10129d47/kanikeh/" data-label_1="KANIKEH" data-label_2="WEATHER" data-font="Ubuntu" data-icons="Climacons Animated" data-days="3" data-theme="dark" >KANIKEH WEATHER</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header "><i class="material-icons ">add_box</i> Detail</div>
+                  <div class="collapsible-body ">
+                    <p class="cyan-text text-lighten-4"> 
+                      Letak       : Maluku, Indonesia<br>
+                      Ketinggian  : 3027 m
+                    </p>
+
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat left">Lokasi</a>
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Tutup</a>
+            </div>
+          </div>
+
+          <!--Gunung Bukit Raya-->
+          <div id="modal7" class="modal">
+            <div class="modal-content grey darken-4">
+              <h4 class="cyan-text text-lighten-4 center">Gunung Bukit Raya</h4>
+              <ul class="collapsible popout">
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">filter_drama</i>Cuaca</div>
+                  <div class="collapsible-body"><a class="weatherwidget-io" href="https://forecast7.com/en/n0d98112d81/katingan-regency/" data-label_1="KATINGAN" data-label_2="WEATHER" data-font="Ubuntu" data-icons="Climacons Animated" data-days="3" data-theme="dark" >KATINGAN WEATHER</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header "><i class="material-icons ">add_box</i> Detail</div>
+                  <div class="collapsible-body ">
+                    <p class="cyan-text text-lighten-4"> 
+                      Letak      : Kalimantan Tengah, Indonesia<br>
+                      Ketinggian : 2278 m
+                    </p>
+
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat left">Lokasi</a>
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Tutup</a>
+            </div>
+          </div>
+
+        <!--Floating Button-->
+        <div class="fixed-action-btn" id="keatas">
+          <a class="btn-floating btn-medium red">
+            <i class="large material-icons">arrow_upward</i>
+          </a>
+        </div>
+      
+
+          <!--MAP-->
+        <div id="map" style="display: none;" ></div>
+          <div class="row grey darken-4">
+            <div class="col s12 center ">
+            
+            
+            <a id="bukatutup" class="button1 waves-effect waves-light btn-large"><i class="material-icons left">filter_hdr</i>Jajaran 7Summit</a>
+            </div>
+          </div>
+
+    <!--Footer-->
+      <footer class="page-footer grey darken-4">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">7Summit INA</h5>
+              <p class="grey-text text-lighten-4">Web informasi mengenai tujuh puncak tertinggi di Indonesia.</p>
+              <P>Powered By : </p>  
+                <a href="https://materializecss.com/" target="_blank"><img src="img/materialize-logo.png" class="logo" ></a>
+                <a href="https://jquery.com/" target="_blank"><img src="img/jquery1.jpg" class="logo"></a>
+                <a href="https://michalsnik.github.io/aos/" target="_blank"><img src="img/Octocat.png" class="logo" ></a>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Get in touch</h5>
+              <ul class="kontak">
+                <li><a href="https://www.facebook.com/syahid.good" target="_blank"><img src="img/fb.png" class="logo2"></li></a>
+                <li><a href="https://www.instagram.com/syahid.ann/" target="_blank"> <img src="img/ig.png" class="logo2"></li></a>
+                <li><a href="https://github.com/syahid-ann" target="_blank"><img src="img/GitHub_Logo_White.png" class="logo2"></li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2021 Copyright || Created by Syahid Ann
+          
+          </div>
+        </div>
+      </footer>
+    
+      <!--AOS JS-->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="js/script.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+      <script>
+        
+          const sidenav = document.querySelectorAll('.sidenav');    /*Untuk memanggil sidenavbar*/
+          M.Sidenav.init(sidenav);
+
+          const parallax = document.querySelectorAll('.parallax');  /*Untuk memanggil parallax*/
+          M.Parallax.init(parallax);
+
+          const modal = document.querySelectorAll('.modal'); /*memanggil modal */
+          M.Modal.init(modal, {
+           startingTop: '10%',
+           endingTop: '20%'
+          });
+
+          const collapsible = document.querySelectorAll('.collapsible');  /*Untuk memanggil collapsible*/
+          M.Collapsible.init(collapsible);
+
+          
+          
+          /*Toggle animasi Slide Kebawah*/
+          $("#bukatutup").click(function(){
+            $("#map").slideToggle({           
+              duration: 500
+            });
+          });
+          
+          $(function() {
+            AOS.init();
+          });
+          
+          $(document).scroll(function() {
+            var y = $(this).scrollTop();
+            if (y > 1200) {
+              $('#keatas').fadeIn();
+            } else {
+              $('#keatas').fadeOut();
+            }
+          });
+
+          /* Animasi Slide Smooth ke atas */
+          $('#keatas').click(function() {
+          $('html,body').animate({
+              scrollTop: $('#cartenz').offset().top},
+              'slow');
+          });
+              
+      </script>
+
+
+    </body>
+  </html>
+
